@@ -140,3 +140,4 @@ C:\Users\kmlva\source\repos\LearningManagement\LearningManagement\obj\Debug\net8
 C:\Users\kmlva\source\repos\LearningManagement\LearningManagement\obj\Debug\net8.0\LearningManagement.pdb
 C:\Users\kmlva\source\repos\LearningManagement\LearningManagement\obj\Debug\net8.0\LearningManagement.genruntimeconfig.cache
 C:\Users\kmlva\source\repos\LearningManagement\LearningManagement\obj\Debug\net8.0\ref\LearningManagement.dll
+C:\Users\kmlva\source\repos\LearningManagement\LearningManagement\obj\Debug\net8.0\LearningManagement.sourcelink.json

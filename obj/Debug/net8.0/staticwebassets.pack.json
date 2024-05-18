@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\LearningManagement.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
@@ -87,6 +91,10 @@
     {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\img\\testimonial-4.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\account.js",
+      "PackagePath": "staticwebassets\\js\\account.js"
     },
     {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\main.js",
@@ -379,6 +387,30 @@
     {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
     },
     {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\lib\\waypoints\\links.php",

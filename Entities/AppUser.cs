@@ -6,7 +6,6 @@ namespace LearningManagement.Entities
     {
         public string Firstname { get; set; }
         public string Lastname { get; set; }
-        public int StudentDetailsId { get; set; }
         public StudentDetails StudentDetails { get; set; }
     }
 }

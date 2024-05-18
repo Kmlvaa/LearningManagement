@@ -1,5 +1,7 @@
 using LearningManagement.Data;
 using LearningManagement.Entities;
+using LearningManagement.Helper;
+using LearningManagement.Services.AccountService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,7 +9,7 @@ namespace LearningManagement
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -26,7 +28,11 @@ namespace LearningManagement
                 opt.Password.RequireLowercase = false;
             }).AddEntityFrameworkStores<AppDbContext>();
 
+            builder.Services.AddTransient<IAuthService, AuthService>();
+
             var app = builder.Build();
+
+            await DataSeed.InitializeAsync(app.Services);
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -40,6 +46,7 @@ namespace LearningManagement
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
