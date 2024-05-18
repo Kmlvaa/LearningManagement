@@ -16,10 +16,6 @@ namespace LearningManagement.Models.AccountVM
         [MinLength(4, ErrorMessage = "Password should be at least 4 chars longs!")]
         [MaxLength(255, ErrorMessage = "Password should be at most 255 chars longs!")]
         public string Password { get; set; }
-        [Required]
-        [MinLength(4, ErrorMessage = "Password should be at least 4 chars longs!")]
-        [MaxLength(255, ErrorMessage = "Password should be at most 255 chars longs!")]
-        public string PasswordConfirmed { get; set; }
         [ValidateNever]
         public string ErrorMessage { get; set; }
     }

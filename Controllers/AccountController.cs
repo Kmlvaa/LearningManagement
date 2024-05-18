@@ -36,6 +36,8 @@ namespace LearningManagement.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterVM model)
         {
+            if (!ModelState.IsValid) { return BadRequest(model); }
+
             var (status, message) = await _authService.Register(model);
             if (status == 0)
             {

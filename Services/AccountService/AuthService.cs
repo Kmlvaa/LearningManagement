@@ -33,7 +33,7 @@ namespace LearningManagement.Services.AccountService
         }
         public async Task<(int, string)> Register(RegisterVM model)
         {
-            var existingUser = _userManager.FindByEmailAsync(model.Email);
+            var existingUser = await _userManager.FindByNameAsync(model.Name);
             if (existingUser != null)
             {
                 return (0, "User already exists!");
