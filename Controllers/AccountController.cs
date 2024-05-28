@@ -1,6 +1,5 @@
 ﻿using LearningManagement.Entities;
 using LearningManagement.Models.AccountVM;
-using LearningManagement.Services.AccountService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,12 +7,12 @@ namespace LearningManagement.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly IAuthService _authService;
         private readonly SignInManager<AppUser> _signInManager;
-        public AccountController(IAuthService authService, SignInManager<AppUser> signInManager)
+        private readonly UserManager<AppUser> _userManager;
+        public AccountController(SignInManager<AppUser> signInManager, UserManager<AppUser> userManager)
         {
-            _authService = authService;
             _signInManager = signInManager;
+            _userManager = userManager;
         }
         public IActionResult Login()
         {
@@ -22,11 +21,26 @@ namespace LearningManagement.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginVM model)
         {
-            var (status, message) = await _authService.Login(model);
-            if (status == 0)
+            if (!ModelState.IsValid) { return View(model); }
+
+            var existingUser = await _userManager.FindByEmailAsync(model.Email);
+            if (existingUser == null)
             {
-                return BadRequest(message);
+                model.ErrorMessage = "Username or password is incorrect!";
+                return View(model);
             }
+            var result = await _signInManager.PasswordSignInAsync(existingUser, model.Password, false, false);
+            if (!result.Succeeded)
+            {
+                model.ErrorMessage = "Username or password is incorrect!";
+                return View(model);
+            }
+
+            if(model.Email == "admin@mail.ru" && model.Password == "admin123")
+            {
+                return RedirectToAction("Index", "Home", new { area = "Admin" });
+            }
+
             return RedirectToAction("Index", "Home");
         }
         public IActionResult Register() 
@@ -36,14 +50,31 @@ namespace LearningManagement.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterVM model)
         {
-            if (!ModelState.IsValid) { return BadRequest(model); }
+            if (!ModelState.IsValid) { return View(model); }
 
-            var (status, message) = await _authService.Register(model);
-            if (status == 0)
+            var existingUser = await _userManager.FindByEmailAsync(model.Email);
+            if (existingUser != null)
             {
-                return BadRequest(message);
+                model.ErrorMessage = "User already exists!";
+                return View(model);
             }
-            return Ok(message);
+
+            AppUser user = new AppUser()
+            {
+                Firstname = model.Name,
+                Lastname = model.Surname,
+                Email = model.Email,
+                UserName = model.Username,
+            };
+
+            var result = await _userManager.CreateAsync(user, model.Password);
+            if (!result.Succeeded)
+            {
+                model.ErrorMessage = string.Join(" ", result.Errors.Select(x => x.Description));
+                return View(model);
+            }
+
+            return RedirectToAction("Login", "Account");
         }
         public async Task<IActionResult> LogOut()
         {

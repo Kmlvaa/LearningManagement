@@ -9,8 +9,52 @@
       "PackagePath": "staticwebassets\\css\\account.css"
     },
     {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\classy-nav.min.css",
+      "PackagePath": "staticwebassets\\css\\classy-nav.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\core-style.css",
+      "PackagePath": "staticwebassets\\css\\core-style.css"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\core-style.css.map",
+      "PackagePath": "staticwebassets\\css\\core-style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\style-admin.css",
+      "PackagePath": "staticwebassets\\css\\style-admin.css"
     },
     {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\css\\style.css",
@@ -19,6 +63,54 @@
     {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\fonts\\helvetica_neu_bold-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\helvetica_neu_bold-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\fonts\\helvetica_neu_bold-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\helvetica_neu_bold-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\fonts\\helvetica_neu_bold-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\helvetica_neu_bold-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\fonts\\helveticaneue_medium-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\helveticaneue_medium-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\fonts\\helveticaneue_medium-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\helveticaneue_medium-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\fonts\\helveticaneue_medium-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\helveticaneue_medium-webfont.woff2"
     },
     {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\img\\about.jpg",
@@ -93,12 +185,64 @@
       "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
     },
     {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\ActiveLine.js",
+      "PackagePath": "staticwebassets\\js\\ActiveLine.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\Basket.js",
+      "PackagePath": "staticwebassets\\js\\Basket.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\ProductAdd.js",
+      "PackagePath": "staticwebassets\\js\\ProductAdd.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\Search.js",
+      "PackagePath": "staticwebassets\\js\\Search.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\ShopPagination.js",
+      "PackagePath": "staticwebassets\\js\\ShopPagination.js"
+    },
+    {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\account.js",
       "PackagePath": "staticwebassets\\js\\account.js"
     },
     {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\active.js",
+      "PackagePath": "staticwebassets\\js\\active.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\classy-nav.min.js",
+      "PackagePath": "staticwebassets\\js\\classy-nav.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\jquery\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery\\jquery-2.2.4.min.js"
+    },
+    {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\map-active.js",
+      "PackagePath": "staticwebassets\\js\\map-active.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\js\\productEdit.js",
+      "PackagePath": "staticwebassets\\js\\productEdit.js"
     },
     {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\lib\\animate\\animate.css",
@@ -429,6 +573,22 @@
       "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
     },
     {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\scss\\_mixin.scss",
+      "PackagePath": "staticwebassets\\scss\\_mixin.scss"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\scss\\_responsive.scss",
+      "PackagePath": "staticwebassets\\scss\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\scss\\_theme_color.scss",
+      "PackagePath": "staticwebassets\\scss\\_theme_color.scss"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables.scss"
+    },
+    {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
     },
@@ -755,6 +915,10 @@
     {
       "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\kmlva\\source\\repos\\LearningManagement\\LearningManagement\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LearningManagement.Microsoft.AspNetCore.StaticWebAssets.props",

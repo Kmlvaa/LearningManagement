@@ -1,7 +1,6 @@
 using LearningManagement.Data;
 using LearningManagement.Entities;
 using LearningManagement.Helper;
-using LearningManagement.Services.AccountService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -28,8 +27,6 @@ namespace LearningManagement
                 opt.Password.RequireLowercase = false;
             }).AddEntityFrameworkStores<AppDbContext>();
 
-            builder.Services.AddTransient<IAuthService, AuthService>();
-
             var app = builder.Build();
 
             await DataSeed.InitializeAsync(app.Services);
@@ -48,6 +45,10 @@ namespace LearningManagement
 
             app.UseAuthentication();
             app.UseAuthorization();
+
+            app.MapControllerRoute(
+                name: "area",
+                pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
             app.MapControllerRoute(
                 name: "default",
